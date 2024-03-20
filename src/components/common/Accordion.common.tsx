@@ -20,7 +20,7 @@ export default function Accordion({
           className="flex justify-between items-center w-full px-5 py-3 text-left"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <span className="font-medium text-base text-gray-800">{title}</span>
+          <span className="font-medium text-base text-gray-400">{title}</span>
           <svg
             className="w-4 h-4"
             aria-hidden="true"
@@ -30,15 +30,15 @@ export default function Accordion({
           >
             <path
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
               d="M19 9l-7 7-7-7"
             />
           </svg>
         </button>
         <div className={`${isOpen ? "block" : "hidden"} w-full px-5 py-3`}>
-          <p className="text-gray-600 text-sm">{content}</p>
+          <p className="text-gray-400 text-sm">{content}</p>
         </div>
       </div>
     </div>
