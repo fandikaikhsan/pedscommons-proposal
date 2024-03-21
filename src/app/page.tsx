@@ -1,5 +1,6 @@
 import Dropdown from "@/components/common/Dropdown.common"
 import ProgressBar from "@/components/common/ProgressBar.common"
+import RatingSummary from "@/components/wrap/RatingSummary.wrap"
 import AccordionList from "@/components/wrap/AccordionList.wrap"
 import ProgressBarList from "@/components/wrap/ProgressBarList.wrap"
 
@@ -55,6 +56,17 @@ export default function Home() {
             </h4>
           </div>
           <ProgressBarList />
+        </div>
+        <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-1">
+            <h3 className="font-bold text-base lg:text-xl underline">
+              Progress Bar
+            </h3>
+            <h4 className="text-sm lg:text-base">
+              This component has purposes to show dropdown menu
+            </h4>
+          </div>
+          <RatingSummary />
         </div>
       </div>
     </main>
