@@ -1,9 +1,13 @@
 import Dropdown from "@/components/common/Dropdown.common"
-import ProgressBar from "@/components/common/ProgressBar.common"
 import RatingSummary from "@/components/wrap/RatingSummary.wrap"
 import AccordionList from "@/components/wrap/AccordionList.wrap"
 import ProgressBarList from "@/components/wrap/ProgressBarList.wrap"
 import DragUpload from "@/components/common/DragUpload.common"
+import Checkbox from "@/components/common/Checkbox.common"
+import Toogle from "@/components/common/Toogle.common"
+import Form from "@/components/common/Form.common"
+import SpeechFormWrap from "@/components/wrap/SpeechForm.wrap"
+import ColorContrast from "@/components/wrap/ColorContrast.wrap"
 
 export default function Home() {
   return (
@@ -79,6 +83,61 @@ export default function Home() {
             </h4>
           </div>
           <DragUpload />
+        </div>
+        <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-1">
+            <h3 className="font-bold text-base lg:text-xl underline">
+              Drag and Drop Upload
+            </h3>
+            <h4 className="text-sm lg:text-base">
+              This component has purposes to show dropdown menu
+            </h4>
+          </div>
+          <Checkbox />
+        </div>
+        <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-1">
+            <h3 className="font-bold text-base lg:text-xl underline">
+              Drag and Drop Upload
+            </h3>
+            <h4 className="text-sm lg:text-base">
+              This component has purposes to show dropdown menu
+            </h4>
+          </div>
+          <Toogle />
+        </div>
+        <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-1">
+            <h3 className="font-bold text-base lg:text-xl underline">
+              Drag and Drop Upload
+            </h3>
+            <h4 className="text-sm lg:text-base">
+              This component has purposes to show dropdown menu
+            </h4>
+          </div>
+          <Form />
+        </div>
+        <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-1">
+            <h3 className="font-bold text-base lg:text-xl underline">
+              Speach Form
+            </h3>
+            <h4 className="text-sm lg:text-base">
+              This component has purposes to show dropdown menu
+            </h4>
+          </div>
+          <SpeechFormWrap />
+        </div>
+        <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-1">
+            <h3 className="font-bold text-base lg:text-xl underline">
+              Speach Form
+            </h3>
+            <h4 className="text-sm lg:text-base">
+              This component has purposes to show dropdown menu
+            </h4>
+          </div>
+          <ColorContrast />
         </div>
       </div>
     </main>
