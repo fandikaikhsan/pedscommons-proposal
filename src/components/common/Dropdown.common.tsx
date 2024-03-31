@@ -4,23 +4,23 @@ import { useState } from "react"
 const DropdownConstant = [
   {
     id: 1,
-    name: "Dashboard",
-    link: "/dashboard",
+    name: "Analytics",
+    link: "/analytics",
   },
   {
     id: 2,
+    name: "Reports",
+    link: "/reports",
+  },
+  {
+    id: 3,
     name: "Settings",
     link: "/settings",
   },
   {
-    id: 3,
-    name: "Earnings",
-    link: "/earnings",
-  },
-  {
     id: 4,
-    name: "Sign out",
-    link: "/sign-out",
+    name: "Help & Support",
+    link: "/help",
   },
 ]
 
