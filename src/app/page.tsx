@@ -151,7 +151,7 @@ export default function Home() {
               Progress Bar
             </h3>
             <h4 className="text-sm lg:text-base">
-              The Progress Bar component visually tracks participants'
+              The Progress Bar component visually tracks participants
               progression through the clinical trial survey, providing a clear
               indicator of their completion status.
             </h4>
