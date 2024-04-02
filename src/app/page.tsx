@@ -163,9 +163,6 @@ export default function Home() {
             <h3 className="font-bold text-base lg:text-xl underline">
               Detail Progress Bar
             </h3>
-            <h4 className="text-sm lg:text-base">
-              This component has purposes to show dropdown menu
-            </h4>
           </div>
           <RatingSummary />
         </div>
